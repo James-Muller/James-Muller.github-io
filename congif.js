@@ -10,7 +10,7 @@ var config = {
     footer: '',
     chapters: [
         {
-            id: 'James-Muller',
+            id: '1',
             title: '三十年战争',
             image: '',
             description: '三十年战争开始于意大利维也纳',
@@ -20,21 +20,11 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'thirty-years-war',
-                    opacity: .50
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'thirty-years-war',
-                    opacity: 0
-                }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
-            id: 'James-Muller',
+            id: '2',
             title: '战火蔓延',
             image: '',
             description: '瓦伦斯坦率领的帝国军队随即扩展到了波西米亚（今布拉格）境内',
@@ -44,18 +34,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'next-move',
-                    opacity: .50
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'next-move',
-                    opacity: 0
-                }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         }
     ]
 };
