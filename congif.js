@@ -10,7 +10,7 @@ var config = {
     footer: '',
     chapters: [
         {
-            id: 'James-Muller',
+            id: 'JamesMuller',
             title: '三十年战争',
             image: '',
             description: '三十年战争开始于意大利维也纳',
@@ -28,7 +28,31 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'phl-city-limits',
+                    layer: 'thirty years war',
+                    opacity: 0
+                }
+            ]
+        },
+        {
+            id: 'JamesMuller',
+            title: 'Pennypack Park Trails',
+            image: '',
+            description: 'Pennypack is a great introduction trail system. Not too steep and not too technical, the beautiful wooded park also provides a great escape from urban life. The south side trails are originally bridle trails, so be nice to equestrians and dismount when you approach them.',
+            location: {
+                center: [-75.05685, 40.06839],
+                zoom: 13.73,
+                pitch: 43.50,
+                bearing: 96.80
+            },
+            onChapterEnter: [
+                {
+                    layer: 'pennypack',
+                    opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'pennypack',
                     opacity: 0
                 }
             ]
