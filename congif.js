@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/james-muller/ckc1irt3t5uco1inxu9lgwybr',
+    style: 'mapbox://styles/james-muller/ckc1qdnw3649b1hqulb6kqb5c',
     accessToken: 'pk.eyJ1IjoiamFtZXMtbXVsbGVyIiwiYSI6ImNrYzE5M25zMTBhOTYydHBocWZmaGh1eGgifQ.npv4XoDycgCFj13Y4ADcBA',
     showMarkers: false,
     theme: 'light',
